@@ -8,7 +8,6 @@ Current release: **0.0.3**
 
 Repository: <https://github.com/linspectacles/desktop-integration>
 
-
 <p align="center">
   <a href="https://github.com/brunonlinespace/brunonlinespace/blob/main/linspectacles/desktop-integration.png">
     <img
@@ -18,6 +17,7 @@ Repository: <https://github.com/linspectacles/desktop-integration>
     >
   </a>
 </p>
+
 ## What Desktop Integration is
 
 Desktop Integration answers a focused question: **how are applications registered with the desktop, and how do the current XDG configuration layers associate MIME types with those desktop entries?**
