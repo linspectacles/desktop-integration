@@ -6,7 +6,7 @@
 
 APPLET_ID = "linspectacles-desktop-integration"
 APPLET_NAME = "Desktop Integration"
-APPLET_VERSION = "0.0.3"
+APPLET_VERSION = "0.0.4"
 APPLET_AUTHOR = "brunonlinespace"
 APPLET_EDITOR = "brunonlinespace"
 APPLET_REPOSITORY = "https://github.com/linspectacles/desktop-integration"
@@ -1142,6 +1142,7 @@ class DesktopIntegrationTab(BaseInspectorTab):
         # View selector belongs on the top-right action row, immediately before
         # Refresh List and Options..., without changing the authoritative shell.
         self.view_label = QLabel("View:")
+        self.view_label.setStyleSheet("font-weight: 600;")
         self.view_combo = QComboBox()
         self.view_combo.addItems(VIEWS)
         self.view_combo.setMinimumWidth(180)

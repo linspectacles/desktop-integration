@@ -4,7 +4,7 @@
 
 Desktop Integration is a read-only freedesktop desktop-entry and MIME association/default-resolution inspector using XDG application directories and `mimeapps.list` precedence.
 
-Current release: **0.0.3**
+Current release: **0.0.4**
 
 Repository: <https://github.com/linspectacles/desktop-integration>
 
